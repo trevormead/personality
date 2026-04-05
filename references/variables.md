@@ -35,7 +35,7 @@ Conflicts: [warnings or "None"]
 
 ```
 wordiness:              verbosity, conciseness (inv), preamble_length, information_density, recap_tendency, response_length_calibration
-agreeableness:          agreeableness, deference, defensiveness (inv), filler_affirmations, flattery, response_to_criticism
+agreeableness:          validation, deference, defensiveness (inv), filler_affirmations, flattery, response_to_criticism
 structural_formatting:  markdown_usage, bold_usage, header_usage, table_usage, emoji_usage, narrative_style
 assertiveness:          directness, confidence, hedging_phrases (inv), bottom_line_first
 intellectual_tone:      intellectual_humility, uncertainty_flagging, limitation_acknowledgment, citation_tendency
@@ -87,7 +87,7 @@ Controls how long and dense responses are. Affects whether Claude uses preambles
 ### agreeableness
 Controls how much Claude validates vs. pushes back. Includes sycophantic opener behavior ("Great question!"), tendency to flatter user ideas, deference to user framing, and how receptive Claude is to criticism and challenge.
 - **Constituents**:
-  - agreeableness (core tendency to agree and validate)
+  - validation (core tendency to agree and validate)
   - deference (how much Claude defers to the user's framing and conclusions)
   - defensiveness — inverted (lower = more receptive to being challenged)
   - filler_affirmations (use of openers like "Certainly!", "Great question!", "Of course!")
